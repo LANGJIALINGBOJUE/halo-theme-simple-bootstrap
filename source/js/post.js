@@ -187,9 +187,10 @@ $(function () {
             $(to).append(catalogs);
             // 为目录中每个链接添加一个点击事件
             $(`${to} a[data-catalog-target]`).on('click', function (event) {
-                let titleId = `#${$(this).attr("data-catalog-target")}`;
+                let originTitleId = `${$(this).attr("data-catalog-target")}`;
+                let titleId = `#${originTitleId}`;
                 changeUrlAnchor(titleId);
-                let offsetTop = $(titleId).offset().top - 20;
+                let offsetTop = document.getElementById(originTitleId).offsetTop - 20;
                 $("html,body").animate({scrollTop: offsetTop}, 300);
                 event.preventDefault();
             });
