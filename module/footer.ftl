@@ -53,7 +53,7 @@
     </div>
 
     <p class="text-muted" style=" font-size: 14px; text-align: center; padding: 23px;">
-        &copy; 2020 - 2023
+        Copyright &copy; 2020 - 2023
         <a href="https://潇雅.com" class="text-muted">
             郎家岭伯爵
         </a>.
