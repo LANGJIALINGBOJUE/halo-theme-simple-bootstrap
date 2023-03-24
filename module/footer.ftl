@@ -3,7 +3,10 @@
     <div class="container d-flex flex-md-row flex-column justify-content-between align-items-center px-lg-2">
         <div>
             <span class="text-muted"><@global.footer/></span>
-            <span class="text-muted font-weight-bold"> Thanks for <a href="https://halo.run">Halo</a></span>
+            <span><a class="text-dark" href="https://潇雅.com">郎家岭伯爵</a></span>
+        </div>
+        <div>
+            <span class="text-muted font-weight-bold " style="text-align: center"><a href="https://beian.miit.gov.cn/" target="_blank">晋ICP备2022007258号-1</a></span>
         </div>
         <div class="link-info mt-md-0 mt-4">
             <#--RSS-->
@@ -48,4 +51,12 @@
             </#if>
         </div>
     </div>
+
+    <p class="text-muted" style=" font-size: 14px; text-align: center; padding: 23px;">
+        &copy; 2020 - 2023
+        <a href="https://潇雅.com" class="text-muted">
+            郎家岭伯爵
+        </a>.
+        <span>All Rights Reserved.</span>
+    </p>
 </footer>
