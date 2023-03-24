@@ -22,13 +22,14 @@
                     <i class="fab fa-github"></i>
                 </a>
             </#if>
-            <#--QQ账号-->
+            <#-- QQ账号
             <#if (settings.qq_number)?? && settings.qq_number?trim != ''>
                 <a class="text-dark mr-3" target="_blank"
                    href="http://wpa.qq.com/msgrd?v=3&uin=${settings.qq_number!}&site=qq&menu=yes">
                     <i class="fab fa-qq"></i>
                 </a>
             </#if>
+            -->
             <#--新浪微博-->
             <#if (settings.weibo_url)?? && settings.weibo_url?trim != ''>
                 <a class="text-dark mr-3" target="_blank"
