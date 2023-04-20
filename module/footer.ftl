@@ -6,7 +6,7 @@
             <span><a class="text-dark" href="https://潇雅.com">郎家岭伯爵</a></span>
         </div>
         <div>
-            <span class="text-muted font-weight-bold " style="text-align: center"><a href="https://beian.miit.gov.cn/" target="_blank">晋ICP备2022007258号-1</a></span>
+            <span class="text-muted font-weight-bold " style="text-align: center"><a href="https://beian.miit.gov.cn/" target="_blank">晋ICP备2022007258号</a></span>
         </div>
         <div class="link-info mt-md-0 mt-4">
             <#--RSS-->
@@ -55,7 +55,7 @@
 
     <p class="text-muted" style=" font-size: 14px; text-align: center; padding: 23px;">
         Copyright &copy; 2021 - 2023
-        <a href="https://潇雅.com" class="text-muted">
+        <a href="https://langjialing.com" class="text-muted">
             郎家岭伯爵
         </a>.
         <span>All Rights Reserved.</span>
