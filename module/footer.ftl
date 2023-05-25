@@ -53,11 +53,15 @@
         </div>
     </div>
 
-    <p class="text-muted" style=" font-size: 14px; text-align: center; padding: 23px;">
-        Copyright &copy; 2021 - 2023
-        <a href="https://langjialing.com" class="text-muted">
-            郎家岭伯爵
-        </a>.
-        <span>All Rights Reserved.</span>
-    </p>
+    <div style="text-align:center;font-size:14px;margin-top:20px;">
+        <span style="color:#939393;">Copyright &copy; 2021 - 2023
+            <a href="https://langjialing.com" class="text-muted">
+                郎家岭伯爵
+            </a>.
+        <span>All Rights Reserved.</span> </span> |
+        <a href="http://beian.miit.gov.cn" target="_blank" style="color:#939393;text-decoration:none;">晋ICP备 2022007258号-2</a> |
+        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=14042102000024" target="_blank" style="color:#939393;text-decoration:none;">
+            <img src="/upload/2023/05/beian.png" style="vertical-align:middle;margin-right:5px;">晋公网安备 14042102000024号
+        </a>
+    </div>
 </footer>
