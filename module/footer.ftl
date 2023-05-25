@@ -5,9 +5,6 @@
             <span class="text-muted"><@global.footer/></span>
             <span><a class="text-dark" href="https://langjialing.com">郎家岭伯爵</a></span>
         </div>
-        <div>
-            <span class="text-muted font-weight-bold " style="text-align: center"><a href="https://beian.miit.gov.cn/" target="_blank">晋ICP备2022007258号</a></span>
-        </div>
         <div class="link-info mt-md-0 mt-4">
             <#--RSS-->
             <#if (settings.open_rss)?? && settings.open_rss?c == 'true'>
