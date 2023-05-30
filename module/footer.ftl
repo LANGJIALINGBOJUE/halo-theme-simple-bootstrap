@@ -3,7 +3,7 @@
     <div class="container d-flex flex-md-row flex-column justify-content-between align-items-center px-lg-2">
         <div class="link-info mt-md-0 mt-4">
             <span class="text-muted"><@global.footer/></span>
-            <span><a class="text-dark" href="https://langjialing.com">郎家岭伯爵</a></span>
+            <span><a class="text-dark" style="font-weight: 550;" href="https://langjialing.com">郎家岭伯爵</a></span>
         </div>
         <div class="link-info mt-md-0 mt-4">
             <#--RSS-->
