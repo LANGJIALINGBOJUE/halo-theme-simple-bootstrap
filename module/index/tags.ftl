@@ -8,7 +8,7 @@
                     所有标签
                 </div>
                 <div class="card-body">
-                    <#list tags as tag>
+                    <#list tags?sort_by("postCount") as tag>
                         <div class="tag">
                             <a href="${tag.fullPath!}" class="text-muted">
                                 <span class="tag-left">${tag.name!}</span>
