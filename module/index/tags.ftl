@@ -8,7 +8,8 @@
                     所有标签
                 </div>
                 <div class="card-body">
-                    <#list tags?sort_by("postCount") as tag>
+                    <#assign sortedTags = tags?sort_by("postCount")>
+                    <#list sortedTags?reverse as tag>
                         <div class="tag">
                             <a href="${tag.fullPath!}" class="text-muted">
                                 <span class="tag-left">${tag.name!}</span>
