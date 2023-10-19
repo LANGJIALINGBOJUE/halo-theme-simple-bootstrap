@@ -7,7 +7,7 @@
                     <div class="card-header"><i class="fas fa-list-ul mr-2"></i>相关推荐</div>
                     <div class="card-body p-0">
                         <ul class="list-group list-group-flush">
-                            <#list posts as post>
+                            <#list posts?reverse as post>
                                 <#if post?index < 5>
                                     <a href="${post.fullPath!}"
                                        class="list-group-item list-group-item-action">${post.title!}
