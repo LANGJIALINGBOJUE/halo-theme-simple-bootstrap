@@ -25,6 +25,17 @@ general:
       type: color
       default: '#dc3545'
       placeholder: '阅读进度条颜色'
+    lantern_enabled:
+      name: lantern_enabled
+      label: 是否开启新年灯笼
+      type: radio
+      data-type: bool
+      default: false
+      options:
+        - value: true
+          label: 开启
+        - value: false
+          label: 关闭
     open_rss:
       name: open_rss
       label: 是否启用RSS
