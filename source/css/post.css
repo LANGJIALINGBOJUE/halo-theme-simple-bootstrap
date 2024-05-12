@@ -27,7 +27,7 @@ article pre code ol li:before {
     text-align: right;
     content: attr(data-line-number);
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    width: 1.7rem;
+    width: 1.85rem;
     left: -2.28rem;
     top: 0;
 }
