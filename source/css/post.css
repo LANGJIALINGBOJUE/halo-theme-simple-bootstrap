@@ -24,11 +24,11 @@ article pre code ol li {
 /* 自定义行号样式 */
 article pre code ol li:before {
     position: absolute;
-    text-align: right;
+    text-align: center;
     content: attr(data-line-number);
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     width: 1.85rem;
-    left: -2.28rem;
+    left: -2.1rem;
     top: 0;
 }
 
