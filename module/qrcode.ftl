@@ -39,10 +39,12 @@
             border-radius: 10px;
             text-align: center;
             z-index: 1000;
+            display: flex; /* 横向排列 */
+            gap: 10px; /* 图片间距 */
         }
 
         #donate-popup img {
-            max-width: 200px;
+            max-width: 100px;
             height: auto;
         }
 
