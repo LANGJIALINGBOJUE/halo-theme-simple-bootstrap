@@ -80,6 +80,18 @@ general:
           label: 启用
         - value: false
           label: 关闭
+    qrcode_enabled_1:
+      name: qrcode_enabled_1
+      label: 捐赠二维码1
+      type: text
+      default: ''
+      placeholder: '捐赠二维码地址1'
+    qrcode_enabled_2:
+      name: qrcode_enabled_2
+      label: 捐赠二维码2
+      type: text
+      default: ''
+      placeholder: '捐赠二维码地址2'
     twitter_account_share:
       name: twitter_account_share
       label: 转发时@推特账号

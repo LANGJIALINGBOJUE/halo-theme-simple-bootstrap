@@ -177,6 +177,8 @@
 
     <#-- 新年灯笼 -->
     <#include "lantern.ftl">
+    <#-- 捐赠二维码 -->
+    <#include "qrcode.ftl">
 
     <#--全局的JavaScript脚本-->
     <script type="text/javascript" src="${theme_base!}/source/js/index.js"></script>
