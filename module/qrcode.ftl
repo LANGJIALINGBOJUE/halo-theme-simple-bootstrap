@@ -57,18 +57,20 @@
 </head>
 <body>
 
-<div id="donate-section">
-    <button id="donate-button">捐赠</button>
-    <div id="donate-popup">
-        <span id="close-button">&times;</span>
-        <#if settings.qrcode_enabled_1?has_content>
-            <img src="${settings.qrcode_enabled_1}" alt="捐赠二维码1">
-        </#if>
-        <#if settings.qrcode_enabled_2?has_content>
-            <img src="${settings.qrcode_enabled_2}" alt="捐赠二维码2">
-        </#if>
+<#if settings.qrcode_enabled_1?has_content || settings.qrcode_enabled_2?has_content>
+    <div id="donate-section">
+        <button id="donate-button">捐赠</button>
+        <div id="donate-popup">
+            <span id="close-button">&times;</span>
+            <#if settings.qrcode_enabled_1?has_content>
+                <img src="${settings.qrcode_enabled_1}" alt="捐赠二维码1">
+            </#if>
+            <#if settings.qrcode_enabled_2?has_content>
+                <img src="${settings.qrcode_enabled_2}" alt="捐赠二维码2">
+            </#if>
+        </div>
     </div>
-</div>
+</#if>
 
 <script>
     const donateButton = document.getElementById('donate-button');
