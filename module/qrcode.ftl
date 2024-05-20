@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -9,7 +8,7 @@
         #donate-section {
             position: fixed;
             left: 10px;
-            top: 80%; /* 向下移动按钮 */
+            top: 80%;
             transform: translateY(-50%);
         }
 
@@ -17,8 +16,8 @@
             background-color: #007bffba;
             color: white;
             border: none;
-            padding: 7px; /* 调小按钮 */
-            font-size: 12px; /* 调小按钮文字大小 */
+            padding: 7px;
+            font-size: 12px;
             cursor: pointer;
             border-radius: 5px;
             position: relative;
@@ -39,13 +38,18 @@
             border-radius: 10px;
             text-align: center;
             z-index: 1000;
-            display: flex; /* 横向排列 */
-            gap: 10px; /* 图片间距 */
+            display: flex;
+            gap: 10px;
         }
 
         #donate-popup img {
             max-width: 100px;
             height: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        #donate-popup img.enlarged {
+            transform: scale(1.5);
         }
 
         #donate-popup #close-button {
@@ -65,10 +69,10 @@
         <div id="donate-popup">
             <span id="close-button">&times;</span>
             <#if settings.qrcode_enabled_1?has_content>
-                <img src="${settings.qrcode_enabled_1}" alt="捐赠二维码1">
+                <img src="${settings.qrcode_enabled_1}" alt="捐赠二维码1" class="qrcode">
             </#if>
             <#if settings.qrcode_enabled_2?has_content>
-                <img src="${settings.qrcode_enabled_2}" alt="捐赠二维码2">
+                <img src="${settings.qrcode_enabled_2}" alt="捐赠二维码2" class="qrcode">
             </#if>
         </div>
     </div>
@@ -111,6 +115,18 @@
         donateButton.style.pointerEvents = 'none';
         donatePopup.style.opacity = '0';
         donatePopup.style.pointerEvents = 'none';
+    });
+
+    const qrCodes = document.querySelectorAll('.qrcode');
+
+    qrCodes.forEach(function(qrCode) {
+        qrCode.addEventListener('mouseover', function() {
+            qrCode.classList.add('enlarged');
+        });
+
+        qrCode.addEventListener('mouseout', function() {
+            qrCode.classList.remove('enlarged');
+        });
     });
 </script>
 
