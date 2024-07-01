@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>捐赠页面示例</title>
+    <title>赞助页面示例</title>
     <style>
         #donate-section {
             position: fixed;
@@ -61,14 +61,14 @@
 
 <#if settings.qrcode_enabled_1?has_content || settings.qrcode_enabled_2?has_content>
     <div id="donate-section">
-        <button id="donate-button">捐赠</button>
+        <button id="donate-button">赞助</button>
         <div id="donate-popup">
             <span id="close-button">&times;</span>
             <#if settings.qrcode_enabled_1?has_content>
-                <img src="${settings.qrcode_enabled_1}" alt="捐赠二维码1">
+                <img src="${settings.qrcode_enabled_1}" alt="赞助二维码1">
             </#if>
             <#if settings.qrcode_enabled_2?has_content>
-                <img src="${settings.qrcode_enabled_2}" alt="捐赠二维码2">
+                <img src="${settings.qrcode_enabled_2}" alt="赞助二维码2">
             </#if>
         </div>
     </div>
