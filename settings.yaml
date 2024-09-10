@@ -81,7 +81,7 @@ general:
         - value: false
           label: 关闭
     qrcode_enabled:
-      name: lantern_enabled
+      name: qrcode_enabled
       label: 是否开启捐赠二维码
       type: radio
       data-type: bool
