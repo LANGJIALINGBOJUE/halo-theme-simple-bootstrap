@@ -51,7 +51,7 @@
     </div>
 
     <div style="text-align:center;font-size:14px;margin-top:20px;">
-        <span style="color:#939393;">Copyright &copy; 2021 - 2024
+        <span style="color:#939393;">Copyright &copy; 2021 - <span id="currentYear"></span>
             <a href="https://langjialing.com" class="text-muted">
                 郎家岭伯爵
             </a>.
@@ -61,4 +61,9 @@
             <img src="/upload/2023/05/beian.png" style="vertical-align:middle;margin-right:5px;">晋公网安备 14042102000024号
         </a>
     </div>
+
+    <script>
+        // 获取当前年份
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
 </footer>
